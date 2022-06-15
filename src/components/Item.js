@@ -9,11 +9,27 @@
 //    h5 > span    (este span debe mostrar la cantidad si es mayor a 0 "agotado" si llega a 0)
 //    button       (este boton debe permitir comprar, pero si la cantidad es menor a 0 debe estar deshabilitado y decir "Sin stock")
 
-export default function Item() {
+import { isDisabled } from "@testing-library/user-event/dist/utils";
+import React from "react";
+import { useState } from "react";
+export default function Item({contadorCarrito, nombre, descripcion, stock}) {
+ const [productoStock, setStock] = useState(stock);
+const comprar =()=>{
+  setStock(prevState => prevState -1)
+}
 
-  return (
-    <div className='producto'>
-      {/* maquetar Item aquí */}
+  
+ return (
+    <div  className='producto'>
+      {
+        <React.Fragment>
+        <h3>{nombre}</h3>
+        <p>{descripcion}</p>
+        <h5>En stock: <span>{productoStock > 0? productoStock: "AGOTADO"}</span></h5>
+        <button disabled={productoStock == 0} onClick={() => {comprar();contadorCarrito()}}>COMPRAR</button>
+        </React.Fragment>
+        }
+   
     </div>
   )
 }
