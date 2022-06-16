@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-const Subtitulo = styled.h3` 
-    font-size: 3em, bold;
+const Subtitulo = styled.h5` 
+    font-size: 1em, bold;
     text-align: center;
     color: palevioletred;`
 

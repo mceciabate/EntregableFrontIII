@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/entregableFrontIII/static/css/main.fe57c324.css",
+    "main.js": "/entregableFrontIII/static/js/main.f923d940.js",
+    "index.html": "/entregableFrontIII/index.html",
+    "main.fe57c324.css.map": "/entregableFrontIII/static/css/main.fe57c324.css.map",
+    "main.f923d940.js.map": "/entregableFrontIII/static/js/main.f923d940.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe57c324.css",
+    "static/js/main.f923d940.js"
+  ]
+}

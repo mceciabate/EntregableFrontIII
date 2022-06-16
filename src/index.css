@@ -14,7 +14,8 @@ body {
 
 header {
   background-color: #ddd;
-  padding: 20px 40px;
+  padding: 10px 5px;
+  
 }
 header h1{
   margin-bottom: 10px;
@@ -63,3 +64,6 @@ header p span {
   padding: 5px;
   text-transform: uppercase;
 }
+
+
+

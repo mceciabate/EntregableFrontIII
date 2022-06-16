@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Contador = styled.span`
     background-color: palevioletred;
     color: white;
-    padding: 3px 5px;
-    border-radius: 5px;`
+    padding: 5px 10px;
+    border-radius: 50%;`
 
 export default Contador;
