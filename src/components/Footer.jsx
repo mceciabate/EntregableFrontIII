@@ -9,7 +9,7 @@ export default function Footer(){
     return (
     <PieDePagina>
         <React.Fragment>
-            <Title> Made whith <FontAwesomeIcon icon={faHeart}/> using <FontAwesomeIcon icon={faAtom} /> </Title>
+            <Title> Made with <FontAwesomeIcon icon={faHeart}/> using <FontAwesomeIcon icon={faAtom} /> </Title>
         </React.Fragment>
     </PieDePagina>
     )
